@@ -1,0 +1,5 @@
+*terraform*
+*terraform.*
+providers.tf
+output_tf
+terraform_tfvars

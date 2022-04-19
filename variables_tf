@@ -1,0 +1,27 @@
+variable "resource_group_name" {
+  type = string
+  description = "Key_rg name in Azure"
+}
+
+variable "location" {
+  type = string
+  description = "Key_rg location in Azure"
+}
+
+variable "keyvault_name" {
+  type = string
+  description = "Key Vault name in Azure"
+ }
+
+ variable "secret_name" {
+     type = string
+     description = "Key Vault Secret name in Azure"
+}
+
+variable "secret_value" {
+  type = string
+  description = "Key Vault secret value in Azure"
+  sensitive = true
+}
+
+
